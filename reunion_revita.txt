@@ -1,0 +1,30 @@
+* Mettre à jour le fichier de suivi des tâches chaque jour
+* Mentionner chaque jour la mission sur laquelle on travaille
+* Tâches journalière : lancer l'extraction des avis de constitution chaque matin
+
+
+* comprendre ce qu'ils font actuellement, comment améliorer ce qu'ils font, qu'est-ce qu'ils veulent
+* aboutir à une nouvelle méthode de travail avec l'outil qu'on leur fournit
+
+La première partie de notre travail est l'AMOA(Assistance à maîtrise d'ouvrage), qui retrace les besoins du client.
+
+AMOA
+Développement
+Test
+Formation
+Livraison
+
+Pour demain :
+ - Le client va nous présenter ce qu'il fait concrètement étape par étape
+ - Faire le compte rendu
+ - Notre job sera de comprendre leur activité et de les challenger
+
+
+étapes AMOA : 
+1. Faire l'état des lieux (prise de connaissance de l'environnement)
+2. Retracer les grandes étapes de travail du client. L'analyse du processus "AS IS" conduit à la détermination des données et des sources de données
+3. 
+Notre challenge de demain : expliquer exactement l'activité du client. On fera une présentation qui contiendra toutes les étapes de travail du client. On devra donc modéliser leur process.
+
+Pour pouvoir automatiser : On travaille sur des données et des sources de données.
+donnée pivot : donnée de base sur lequel le client s'appuie pour faire son travail

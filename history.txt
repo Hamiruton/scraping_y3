@@ -1,0 +1,1000 @@
+ 1002  sudo docker images
+ 1003  sudo docker run -d -p 8000:5000 refactor_server_it:latest
+ 1004  sudo docker ps
+ 1005  sudo docker run -d refactor_server_it:latest
+ 1006  sudo docker ps
+ 1007  sudo docker stop d04f226928e3
+ 1008  sudo docker ps
+ 1009  sudo docker run -d refactor_server_it:latest
+ 1010  sudo docker ps
+ 1011  sudo docker run refactor_server_it:latest
+ 1012  sudo docker ps -a
+ 1013  sudo docker start d04f226928e3
+ 1014  sudo docker ps
+ 1015  sudo docker stop d04f226928e3
+ 1016  redis-cli 
+ 1017  cd ~
+ 1018  cd vue-mastery/
+ 1019  ls
+ 1020  yarn create vue
+ 1021  code vue-project/
+ 1022  node
+ 1023  sudo docker ps
+ 1024  sudo docker stop 1226a55a9997
+ 1025  sudo docker run vue-app:1.0.0
+ 1026  yarn dev
+ 1027  sudo docker build -t vue-app:1.0.0 .
+ 1028  sudo docker ps
+ 1029  sudo docker images
+ 1030  sudo docker save vue-app > vue-app
+ 1031  rm vue-app 
+ 1032  sudo docker save vue-app > vue-app.tar
+ 1033  tar -xvf vue-app.tar 
+ 1034  rm -rf vue-app.tar 000a888f6f03acb7b3de374373fe51d8aaae91ea5c6cb9ce6ebd31e4007a0bb0/ 4e3318b2686984d575905698eaddad289081368411739fcb7d31e7c434f1e99f/ 5bc8ecca384ec5b1b20da63bfc4ab3be4406f65eea6bbc7e27978ad27b6be6ab/ 120d965b60877791f0375d2b2cc989b7c00e472301aba0cee20ce24ebeacce5c/ 433b4edda9ba6fe08261fa1aabe6e2f83f3aab479f76a8a9877998af201b428c/ 520d2149cf63f814f93ef465cade494560f46a1f19cd218ba29c3419c2e1d307/ 322405cfe4e25830204d69f367df1e31308f313f678899f95cd35544f3c0b004/ c119875114feac62810d6329c7cc8d831aacd33d82cdd0da7fad746c5bdaa80c/ fe63464dfd3e9f64e0b15ba0501aa3c1678ddfc737fa51ee349f9d76b2ff2d32.json repositories manifest.json 
+ 1035  sudo docker -it vue-app
+ 1036  sudo docker run -it vue-app
+ 1037  sudo docker run -it vue-app:1.0.0
+ 1038  clear
+ 1039  sudo docker build -t vue-app:2.0.0 .
+ 1040  sudo docker images
+ 1041  sudo docker run -dp 9000:3000 vue-app:2.0.0
+ 1042  sudo docker ps
+ 1043  sudo docker stop caba66ea11e3
+ 1044  sudo docker stop 64f19ab3b944
+ 1045  sudo docker ps
+ 1046  sudo docker --rm vue-app
+ 1047  sudo docker rm vue-app
+ 1048  sudo docker image rm vue-app
+ 1049  sudo docker image rm vue-app:2.0.0
+ 1050  sudo docker images
+ 1051  sudo docker ps
+ 1052  sudo docker ps -a
+ 1053  sudo docker rm caba66ea11e3
+ 1054  sudo docker ps -a
+ 1055  sudo docker rm f7c0c2140289
+ 1056  sudo docker rm 64f19ab3b944
+ 1057  sudo docker ps -a
+ 1058  sudo docker rm a01726f5afb5 1226a55a9997 66b68e8cfcc3 5d1c0fabba98 6bd6cb13a105 8a4fb25c3588
+ 1059  sudo docker ps -a
+ 1060  sudo docker rm 4c66ec184fe2 a7a970794f07 9fc73c0271cb f514fa492f03 d6aa3d8a3b04
+ 1061  sudo docker ps -a
+ 1062  sudo docker rm 16b2290e2b08 c1e84f7ab44b 0b8b63783baf d23583d62be0 d04f226928e3
+ 1063  sudo docker ps -a
+ 1064  sudo docker rm 7ddd9b376c07 8a505e10aba9
+ 1065  sudo docker ps -a
+ 1066  sudo docker images
+ 1067  sudo docker ps
+ 1068  sudo docker stop a01726f5afb5
+ 1069  sudo docker ps
+ 1070  sudo docker run -p 3000:4173 vue-app:1.0.0
+ 1071  sudo docker ps
+ 1072  cd ..
+ 1073  cd Y3-project/
+ 1074  ls
+ 1075  cd consolidation-project/
+ 1076  ls
+ 1077  pnpm dev
+ 1078  cd vue-mastery/
+ 1079  ls
+ 1080  code test-vuetify/
+ 1081  cd ..
+ 1082  cd Y3-project/
+ 1083  ls
+ 1084  pnpm create vuetify
+ 1085  rm -rf transition-syscohada-ifrs/
+ 1086  yarn create vuetify
+ 1087  code transition-syscohada-ifrs/
+ 1088  node
+ 1089  yarn dev
+ 1090  yarn add axios
+ 1091  yarn dev
+ 1092  cd Y3-project/
+ 1093  ls
+ 1094  cd transition-syscohada-ifrs/
+ 1095  ls
+ 1096  yarn dev
+ 1097  sudo reboot now
+ 1098  cd Y3-project/
+ 1099  cd
+ 1100  ls
+ 1101  cd Y3-project/
+ 1102  ls
+ 1103  code transition-syscohada-ifrs/
+ 1104  clear
+ 1105  node
+ 1106  clear
+ 1107  mongosh
+ 1108  clear
+ 1109  yarn dev
+ 1110  cd ..
+ 1111  source pi2023/venv/bin/activate
+ 1112  cd Y3-project/transition-syscohada-ifrs/
+ 1113  clear
+ 1114  yarn dev
+ 1115  cd Y3-project/
+ 1116  ls
+ 1117  code transition-syscohada-ifrs/
+ 1118  node
+ 1119  mongosh
+ 1120  sudo reboot now
+ 1121  python
+ 1122  cd ..
+ 1123  yarn dev
+ 1124  cd ..
+ 1125  cd pi2023/
+ 1126  source venv/bin/activate
+ 1127  cd ..
+ 1128  cd Y3-project/transition-syscohada-ifrs/api/
+ 1129  touch run.py
+ 1130  mkdir src
+ 1131  pip list
+ 1132  python run.py 
+ 1133  pip install pandas
+ 1134  python run.py 
+ 1135  pip install openpyxl
+ 1136  python run.py 
+ 1137  mongosh
+ 1138  cd Y3-project/
+ 1139  cd PFE_2023/
+ 1140  gedit termes_importants.txt
+ 1141  rm termes_importants.txt 
+ 1142  cd ..
+ 1143  code transition-syscohada-ifrs/
+ 1144  mongosh
+ 1145  cd Y3-project/
+ 1146  cd transition-syscohada-ifrs/
+ 1147  yarn dev
+ 1148  cd ..
+ 1149  cd book-store-comoe
+ 1150  ls
+ 1151  code .
+ 1152  pnpm dev
+ 1153  cd Y3-project/
+ 1154  ls
+ 1155  pnpm dev
+ 1156  git add index.html 
+ 1157  git commit -m "Change title and icon of document"
+ 1158  git add src/router/
+ 1159  git commit -m "Add homeClient route"
+ 1160  git push -u origin main
+ 1161  git add src/main.js 
+ 1162  git commit -m "Add mdi css avilable globally"
+ 1163  git add src/views/clientView/
+ 1164  git add src/views/HomeView.vue 
+ 1165  git commit -m "Create home view for expert-comptable"
+ 1166  git add src/router/
+ 1167  git commit -m "Change access of HomeView component"
+ 1168  cd Y3-project/
+ 1169  code consolidation-project/
+ 1170  mkdir test-astro
+ 1171  cd test-astro/
+ 1172  # create a new project with pnpm
+ 1173  pnpm create astro@latest
+ 1174  ls
+ 1175  cd second-series/
+ 1176  ls
+ 1177  cd src/
+ 1178  ls
+ 1179  cd components/
+ 1180  ls
+ 1181  gedit Card.astro 
+ 1182  cd Downloads/
+ 1183  ls
+ 1184  ls -la
+ 1185  yarn
+ 1186  cd test-astro/
+ 1187  ls
+ 1188  rm -r second-series/
+ 1189  ls
+ 1190  pnpx create-vue
+ 1191  ls
+ 1192  yarn create vue
+ 1193  code test-typescript/
+ 1194  yarn create vue
+ 1195  npm init @vitejs/app without-ts/ --template vue-ts
+ 1196  npx init @vitejs/app without-ts/ --template vue-ts
+ 1197  cd Y3-project/
+ 1198  ls
+ 1199  code consolidation-project/
+ 1200  clear
+ 1201  clear
+ 1202  pnpm dev
+ 1203  git add src/views/ImportView.vue 
+ 1204  git add src/views/ImportView.vue
+ 1205  git add src/views/ClientList.vue 
+ 1206  git add src/layouts/
+ 1207  git commit -m "Improve display data"
+ 1208  git add src/views/ClientSpace.vue 
+ 1209  git commit -m "Create client space view"
+ 1210  git add src/views/DetailsData.vue 
+ 1211  git commit -m "Create details view for each financial statement"
+ 1212  git add src/router/
+ 1213  git commit -m "Add client space and details view routes"
+ 1214  git push -u origin main
+ 1215  cd Y3-project/
+ 1216  ls
+ 1217  code consolidation-project/
+ 1218  git add src/views/ClientSpace.vue 
+ 1219  git commit -m "transform menu dates in collapse"
+ 1220  git add public/
+ 1221  git commit -m "Change favicon"
+ 1222  git push -u origin main
+ 1223  git add api/requirements.txt 
+ 1224  git commit -m "Python packages for building api"
+ 1225  git add .gitignore 
+ 1226  git commit -m "Add python virtual_env files to gitignore"
+ 1227  git add api/
+ 1228  pnpm dev
+ 1229  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1230  clear
+ 1231  cd api/
+ 1232  python run.py 
+ 1233  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1234  pnpm dev
+ 1235  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1236  python run.py
+ 1237  pip install pandas
+ 1238  python
+ 1239  python run.py
+ 1240  clear
+ 1241  python run.py
+ 1242  pip install openpyxl
+ 1243  python run.py
+ 1244  pip list
+ 1245  python run.py
+ 1246  clear
+ 1247  python run.py
+ 1248  clear
+ 1249  python run.py
+ 1250  cd ..
+ 1251  ls
+ 1252  cd pi2023/
+ 1253  ls
+ 1254  cd app/
+ 1255  ls
+ 1256  cd ..
+ 1257  cd app/
+ 1258  ls
+ 1259  cd api/
+ 1260  ls
+ 1261  nano requirements.txt 
+ 1262  cp requirements.txt ~/Y3-project/consolidation-project/
+ 1263  clear
+ 1264  cd ~
+ 1265  mongosh
+ 1266  cd Y3-project/
+ 1267  code consolidation-project/
+ 1268  cd transition-syscohada-ifrs/
+ 1269  ls
+ 1270  cd api/
+ 1271  ls
+ 1272  cd ..
+ 1273  cd ls
+ 1274  ls
+ 1275  cd ..
+ 1276  cd consolidation-project/
+ 1277  ls
+ 1278  mkdir api
+ 1279  mv requirements.txt api/
+ 1280  cd ..
+ 1281  cd transition-syscohada-ifrs/
+ 1282  ls
+ 1283  cd api/
+ 1284  ls
+ 1285  code .
+ 1286  cd ..
+ 1287  ls
+ 1288  cel
+ 1289  clear
+ 1290  cd ..
+ 1291  cd consolidation-project/
+ 1292  source api/virtual_env/bin/activate
+ 1293  code .
+ 1294  cd ..
+ 1295  cd transition-syscohada-ifrs/
+ 1296  cd api/
+ 1297  ls
+ 1298  code .
+ 1299  cd Y3-project/
+ 1300  code consolidation-project/
+ 1301  cd transition-syscohada-ifrs/
+ 1302  ls api/
+ 1303  code api/
+ 1304  mongosh
+ 1305  cd api/
+ 1306  source ../../consolidation-project/api/virtual_env/bin/activate
+ 1307  python run.py 
+ 1308  pip install waitress
+ 1309  deactivate 
+ 1310  source ../../../pi2023/venv/bin/activate
+ 1311  pip install waitress
+ 1312  python run.py 
+ 1313  ls
+ 1314  cd src/
+ 1315  ls
+ 1316  cd components/
+ 1317  ls
+ 1318  gedit TableView.vue
+ 1319  cd ..
+ 1320  yarn dev
+ 1321  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1322  cd api/
+ 1323  python run.py 
+ 1324  clear
+ 1325  cd ..
+ 1326  git add .gitignore
+ 1327  git commit -m "Add pycache to gitignore"
+ 1328  git add src/components/TabComp.vue src/components/TabsWrapper.vue 
+ 1329  git commit -m "Create reusable tabs component"
+ 1330  git add src/components/TableData.vue 
+ 1331  git commit -m "Create component to display datas in tables"
+ 1332  git add src/components/basic/
+ 1333  git commit -m "Create reusable modal component to display data in dialog"
+ 1334  git add src/main.js 
+ 1335  dit comm-m "Add BasicModal as global component"
+ 1336  git commit -m "Add BasicModal as global component"
+ 1337  git add src/views/DetailsData.vue 
+ 1338  git commit -m "Use Tabs and Modal components in detailsData view"
+ 1339  git push -u origin main
+ 1340  clear
+ 1341  pnpm dev
+ 1342  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1343  cd api/
+ 1344  git add src/config/
+ 1345  git commit -m "Configure database"
+ 1346  git add src/models/
+ 1347  git commit -m "Define models"
+ 1348  git add src/statements/
+ 1349  git commit -m "Define statements moduls"
+ 1350  git add src/utils/
+ 1351  git commit -m "Create parse_excel function"
+ 1352  git add src/
+ 1353  git commit -m "Init src package"
+ 1354  git add .env 
+ 1355  git commit -m "Define env variables"
+ 1356  git add run.py 
+ 1357  git commit -m "Init run.py"
+ 1358  cd ~
+ 1359  cd book-store-comoe/
+ 1360  ls
+ 1361  code src/
+ 1362  cd pi2023/
+ 1363  ls
+ 1364  cd a
+ 1365  cd app/
+ 1366  ls
+ 1367  cd ..
+ 1368  ls
+ 1369  source venv/bin/activate
+ 1370  code app
+ 1371  cd Y3-project/
+ 1372  code consolidation-project/
+ 1373  cd transition-syscohada-ifrs/
+ 1374  code api/
+ 1375  cd api/
+ 1376  ls
+ 1377  source virtual_env/bin/activate
+ 1378  git log
+ 1379  pnpm dev
+ 1380  cd Y3-project/
+ 1381  code consolidation-project/
+ 1382  mongosh
+ 1383  cd Y3-project/
+ 1384  code consolidation-project/
+ 1385  mongosh
+ 1386  cd Y3-project/
+ 1387  code consolidation-project/
+ 1388  mongosh
+ 1389  clear
+ 1390  source virtual_env/bin/activate
+ 1391  python run.py 
+ 1392  clear
+ 1393  pnpm dev
+ 1394  clear
+ 1395  source api/virtual_env/bin/activate
+ 1396  git add tailwind.config.js 
+ 1397  git commit -m "Add new colors"
+ 1398  git add src/views/ClientList.vue 
+ 1399  git commit -m "Add store to client list"
+ 1400  git add src/views/ImportView.vue 
+ 1401  git commit -m "Link import view to API"
+ 1402  git add src/stores/
+ 1403  git commit -m "Create global state"
+ 1404  git add src/utils/
+ 1405  git commit -m "Create upload file util"
+ 1406  git add package.json pnpm-lock.yaml 
+ 1407  git commit -m "Add axios and dayjs packages"
+ 1408  git add src/main.js src/plugins/
+ 1409  git commit -m "weak coupling of main.js using plugins folder"
+ 1410  git add src/views/AddClient.vue 
+ 1411  git commit -m "create addClient view"
+ 1412  git add src/views/HomeView.vue 
+ 1413  git commit -m "Link home to API"
+ 1414  git add src/views/DetailsData.vue 
+ 1415  git add src/components/ConversionBtn.vue 
+ 1416  git commit -m "Create conversion component"
+ 1417  git add src/components/basic/
+ 1418  git commit -m "Create basic reusable modal"
+ 1419  git add src/views/ModelView.vue src/components/ModelComp.vue src/components/AddModel.vue src/components/AddNormes.vue 
+ 1420  git commit -m "Create financial model view and component"
+ 1421  git add src/router/
+ 1422  git commit -m "Add ModelView to route"
+ 1423  git add src/layouts/
+ 1424  git commit -m "Modify layoutDefault to add 'Modeles' and 'Annexes'"
+ 1425  cd api/
+ 1426  git add src/statements/routes.py 
+ 1427  git commit -m "delete pandas in statements route"
+ 1428  git add src/models/common.py && git commit -m "Add ObjectId in global access"
+ 1429  git add src/clients/ && git commit -m "Create a client package to handle all clients routes"
+ 1430  git add src/models/ && git commit -m "Create a model for client to handle all links with db"
+ 1431  git add src/__init__.py && git commit -m "Add client blueprint to init"
+ 1432  git push -u origin main
+ 1433  cd Y3-project/
+ 1434  code consolidation-project/
+ 1435  cd Y3-project/
+ 1436  code consolidation-project/
+ 1437  mongosh
+ 1438  cd Y3-project/
+ 1439  code consolidation-project/
+ 1440  mongosh
+ 1441  cd Y3-project/
+ 1442  code consolidation-project/
+ 1443  mongosh
+ 1444  clear
+ 1445  source virtual_env/bin/activate
+ 1446  clear
+ 1447  clear
+ 1448  pnpm dev
+ 1449  cd api/
+ 1450  source virtual_env/bin/activate
+ 1451  python run.py 
+ 1452  source api/virtual_env/bin/activate
+ 1453  cd api/
+ 1454  cd ..
+ 1455  git add src/stores/
+ 1456  git commit -m "Save models and clients data in localstorage after log in"
+ 1457  git add src/views/HomeView.vue 
+ 1458  git commit -m "Load models and clients data and insert them in global states"
+ 1459  git add src/views/ClientList.vue src/views/ImportView.vue src/components/ConversionBtn.vue 
+ 1460  git commit -m "Use global states instead of axios request"
+ 1461  git add src/components/AddModel.vue 
+ 1462  git commit -m "Correct bug"
+ 1463  git add src/router/
+ 1464  git commit -m "Correct routes bugs"
+ 1465  cd api/
+ 1466  git add src/models/clients.py src/models/statements.py 
+ 1467  git commit -m "Change return values of some functions"
+ 1468  git add src/statements/
+ 1469  git commit -m "Control return values of get_statements_by_date_and_type route"
+ 1470  git add src/convert_state/
+ 1471  git commit -m "Create convert_state blueprint to manage converted statements"
+ 1472  git log
+ 1473  git add src/models/convert_state.py && git commit -m "Create a model for convert_state to deal with db"
+ 1474  git add src/__init__.py && git commit -m "Add convert_state blueprint to init process"
+ 1475  git push -u origin main 
+ 1476  cd Y3-project/
+ 1477  code consolidation-project/
+ 1478  mongosh
+ 1479  cd Y3-project/
+ 1480  code consolidation-project/
+ 1481  mongosh
+ 1482  f
+ 1483  source virtual_env/bin/activate
+ 1484  clear
+ 1485  python run.py 
+ 1486  clear
+ 1487  node
+ 1488  clear
+ 1489  git add src/models/admin.py src/admin/
+ 1490  git commit -m "Write a second route and model to render model state financial"
+ 1491  git add src/models/convert_state.py && git commit -m "Write conversion and get_state models"
+ 1492  git add src/convert_state/ && git commit -m "Write 2 routes, one for creating new converted state and second to render converted states"
+ 1493  git add ../src/components/ConversionBtn.vue && git commit -m "Rewrite all the component to convert financial state"
+ 1494  git add ../src/views/ClientSpace.vue && git commit -m "Write a temporary way to specify normeType"
+ 1495  git add ../src/views/DetailsData.vue && git commit -m "Ask api to render initial and converted states, show them"
+ 1496  git add ../src/stores/app.js && git commit -m "Define some globals states"
+ 1497  git push -u origin main 
+ 1498  cd 
+ 1499  cd Y3-project/consolidation-project/
+ 1500  git add src/views/DetailsData.vue src/components/TableData.vue && git commit -m "Add a table head to conversion table"
+ 1501  node
+ 1502  git add src/utils/formatDate.js src/views/ && git commit -m "Create a function tool to format date for vue and insertion in db"
+ 1503  git add src/assets/main.css && git commit -m "Create an active property"
+ 1504  git push -u origin main 
+ 1505  clear
+ 1506  pnpm dev
+ 1507  node
+ 1508  clear
+ 1509  git add src/views/ImportView.vue && git commit -m "Fix uploaded bug due to formattedDate"
+ 1510  git add src/views/ClientSpace.vue && git commit -m "Add route to display total financial states"
+ 1511  git add src/views/TotalStateData.vue && git commit -m "Create new view to deal with total financial states data"
+ 1512  git add src/utils/formatDate.js && git commit -m "Create onlyYear function to format date"
+ 1513  git add src/router/ && git commit -m "Add totalState to routes"
+ 1514  cd api/
+ 1515  git add src/models/convert_state.py && git commit -m "Create new function to render all convert states of a client according to state type"
+ 1516  git add src/convert_state/ && git commit -m "Create get_all_states route in convert_state"
+ 1517  git push -u origin main 
+ 1518  cd /etc
+ 1519  ls
+ 1520  sudo a2enmod proxy
+ 1521  systemctl restart apache2
+ 1522  systemctl status apache2
+ 1523  sudo a2enmod proxy
+ 1524  sudo a2enmod proxy_http
+ 1525  systemctl restart apache2
+ 1526  sudo a2enmod proxy_http
+ 1527  sudo nano /etc/apache2/sites-available/000-default.conf 
+ 1528  sudo service apache2 restart
+ 1529  sudo nano /etc/apache2/sites-available/000-default.conf 
+ 1530  sudo service apache2 restart
+ 1531  sudo nano /etc/apache2/sites-available/000-default.conf 
+ 1532  sudo service apache2 restart
+ 1533  sudo service apache2 status
+ 1534  sudo service apache2 restart
+ 1535  sudo nano /etc/apache2/sites-available/000-default.conf 
+ 1536  sudo service apache2 restart
+ 1537  sudo service apache2 stop
+ 1538  sudo nano /etc/apache2/sites-available/000-default.conf 
+ 1539  curl --request GET   --url http://localhost:8000/api/users/admin   --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwdWJsaWNfaWQiOiI2NDg4ZjZkN2M2MTdmM2Q2NGZiMThiODcifQ.35ErBqs-XzeuVqXT_3txL_0AJQNdP7M_UpiIBNyq3iM'
+ 1540  curl --request GET   --url http://localhost:8000/api/users/admin   --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwdWJsaWNfaWQiOiI2NDg4ZjZkN2M2MTdmM2Q2NGZiMThiODcifQ.35ErBqs-XzeuVqXT_3txL_0AJQNdP7M_UpiIBNyq3i'
+ 1541  cd Y3-project/
+ 1542  code consolidation-project/
+ 1543  mongosh
+ 1544  cd api/
+ 1545  source virtual_env/bin/activate
+ 1546  python
+ 1547  git add src/models/clients.py src/clients/ && git commit -m "Create 'create filiale' route"
+ 1548  cd ..
+ 1549  git add src/components/AddFiliale.vue src/views/ClientSpace.vue && git commit -m "Create add filiale component and add it to clientSpace view"
+ 1550  git push -u origin main 
+ 1551  cd api/
+ 1552  source virtual_env/bin/activate
+ 1553  python run.py 
+ 1554  clear
+ 1555  python run.py 
+ 1556  clear
+ 1557  python run.py 
+ 1558  pnpm dev
+ 1559  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1560  gunicorn --bind 0.0.0.0:8000 run:app
+ 1561  gunicorn --bind 0.0.0.0:8000 'src:create_app()'
+ 1562  gunicorn --bind 0.0.0.0:8000 run:app
+ 1563  cd Y3-project/
+ 1564  code consolidation-project/
+ 1565  surge --version
+ 1566  npm install --global surge
+ 1567  surge --version
+ 1568  surge
+ 1569  ifconfig 
+ 1570  sudo apt update
+ 1571  nginx --version
+ 1572  sudo apt install nginx
+ 1573  sudo ufw app list
+ 1574  sudo ufw allow 'Nginx HTTP'
+ 1575  sudo ufw status
+ 1576  systemctl status nginx
+ 1577  systemctl status apache2
+ 1578  systemctl stop apache2
+ 1579  systemctl start nginx
+ 1580  systemctl status nginx
+ 1581  curl -4 icanhazip.com
+ 1582  sudo systemctl enable nginx
+ 1583  sudo apt remove apache2
+ 1584  sudo ufw status
+ 1585  systemctl status nginx
+ 1586  systemctl reload nginx
+ 1587  apache2 
+ 1588  systemctl status apache2
+ 1589  systemctl stop apache2
+ 1590  sudo apt purge apache2-*
+ 1591  cd /var/
+ 1592  ls www/html/
+ 1593  cd www/html/
+ 1594  nano index.html 
+ 1595  rm index.html 
+ 1596  ls
+ 1597  sudo rm index.html 
+ 1598  ls
+ 1599  mv index.nginx-debian.html index.html
+ 1600  sudo mv index.nginx-debian.html index.html
+ 1601  ls
+ 1602  nano index.html 
+ 1603  sudo rm -r glpi/
+ 1604  ls
+ 1605  cd /var/log/
+ 1606  ls apache2/
+ 1607  sudo rm -rf apache2/
+ 1608  cd /etc/
+ 1609  ls apache2/
+ 1610  sudo rm -rf apache2/
+ 1611  cd ~
+ 1612  cd Y3-project/
+ 1613  source ~
+ 1614  source ./
+ 1615  nano ~/.cache/
+ 1616  nano ~/.neo4j/
+ 1617  cd ~/.neo4j/
+ 1618  ls
+ 1619  cd ../.cache/
+ 1620  ls
+ 1621  cd node
+ 1622  ls
+ 1623  cd corepack/
+ 1624  ls
+ 1625  cd ~/Y3-project/
+ 1626  sudo systemctl restart nginx
+ 1627  sudo systemctl status nginx
+ 1628  sudo systemctl status apache2
+ 1629  apache2
+ 1630  sudo lsof -i :80
+ 1631  sudo killall apache2
+ 1632  sudo systemctl status nginx
+ 1633  sudo ufw app list
+ 1634  sudo lsof -i -P -n
+ 1635  netstat -tuln
+ 1636  ifconfig 
+ 1637  sudo ufw allow 8000
+ 1638  netstat -tuln
+ 1639  sudo lsof -i -P -n
+ 1640  sudo systemctl status mongod.service 
+ 1641  sudo systemctl status mongod
+ 1642  cd /etc/
+ 1643  nano mongod.conf 
+ 1644  sudo nano mongod.conf 
+ 1645  ifconfig 
+ 1646  sudo nano mongod.conf 
+ 1647  sudo systemctl restart mongod
+ 1648  sudo systemctl status mongod
+ 1649  sudo ufw allow 27017
+ 1650  sudo lsof -i -P -n
+ 1651  ifconfig 
+ 1652  sudo lsof -i -P -n
+ 1653  sudo ufw allow 27017
+ 1654  sudo lsof -i -P -n
+ 1655  ifconfig 
+ 1656  cd /var/log/mongodb/
+ 1657  ls
+ 1658  nano mongod.log 
+ 1659  sudo nano mongod.log 
+ 1660  sudo lsof -i -P -n
+ 1661  sudo fuser -k 27017/tcp
+ 1662  sudo fuser -k 8828/tcp
+ 1663  sudo lsof -i -P -n
+ 1664  sudo fuser -k 6379/tcp
+ 1665  sudo lsof -i -P -n
+ 1666  sudo fuser -k 6379/tcp
+ 1667  sudo lsof -i -P -n
+ 1668  sudo ufw allow 27017
+ 1669  sudo nano /etc/mongod.conf 
+ 1670  ifconfig 
+ 1671  sudo nano /etc/mongod.conf 
+ 1672  sudo lsof -i -P -n
+ 1673  sudo ufw allow 27018
+ 1674  sudo lsof -i -P -n
+ 1675  sudo nano /etc/mongod.conf 
+ 1676  cd /tmp/
+ 1677  ls
+ 1678  ls *.sock
+ 1679  nano mongodb-27017.sock 
+ 1680  sudo nano mongodb-27017.sock 
+ 1681  ifconfig 
+ 1682  cd consolidation-project/
+ 1683  source api/virtual_env/bin/activate
+ 1684  pip list
+ 1685  deactivate 
+ 1686  pip list
+ 1687  source api/virtual_env/bin/activate
+ 1688  sudo apt install python3-dev build-essential libssl-dev libffi-dev python3-setuptools
+ 1689  python
+ 1690  pip install wheel
+ 1691  pip list
+ 1692  pip install gunicorn
+ 1693  cd /var/lib/mongodb/
+ 1694  ls
+ 1695  cd ..
+ 1696  cd mysql
+ 1697  ls
+ 1698  cd mysql
+ 1699  sudo cd mysql
+ 1700  cd mongodb/
+ 1701  cd ..
+ 1702  cd mysql/
+ 1703  cd php/
+ 1704  ls
+ 1705  cd modules/
+ 1706  ls
+ 1707  cd 7.4/
+ 1708  ls
+ 1709  netstat -pn
+ 1710  netstat -lpn
+ 1711  sudo nano /etc/nginx/sites-available/ycube
+ 1712  sudo ln -s /etc/nginx/sites-available/ycube /etc/nginx/sites-enabled/
+ 1713  sudo nginx -t
+ 1714  sudo systemctl restart nginx
+ 1715  sudo ufw allow 'Nginx Full'
+ 1716  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1717  /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/python
+ 1718  mongosh
+ 1719  sudo systemctl status mongod
+ 1720  sudo systemctl restart mongod
+ 1721  sudo systemctl status mongod
+ 1722  sudo systemctl reload mongod
+ 1723  sudo systemctl stop mongod
+ 1724  sudo systemctl status mongod
+ 1725  ls /var/
+ 1726  ls /etc/
+ 1727  sudo nano /etc/mongod.conf 
+ 1728  sudo systemctl restart mongod
+ 1729  sudo systemctl status mongod
+ 1730  sudo systemctl restart mongod
+ 1731  sudo systemctl start mongod
+ 1732  sudo systemctl status mongod
+ 1733  cd api/
+ 1734  source virtual_env/bin/activate
+ 1735  clear
+ 1736  python run.py 
+ 1737  pnpm dev
+ 1738  mongosh
+ 1739  mongosh "mongodb://127.0.0.1:27018/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.8.0"
+ 1740  sudo nano /etc/mongod.conf 
+ 1741  sudo systemctl restart mongod
+ 1742  sudo systemctl status mongod
+ 1743  mongosh
+ 1744  ifconfig 
+ 1745  node
+ 1746  cd api/
+ 1747  source virtual_env/bin/activate
+ 1748  git add src/annexe/ src/models/annexe.py src/models/__init__.py src/__init__.py 
+ 1749  git commie -m "Create a new package called annexe to manage annexe generation and sostorage"
+ 1750  git commit -m "Create a new package called annexe to manage annexe generation and sostorage"
+ 1751  git add src/convert_state/ src/models/convert_state.py 
+ 1752  git commit -m "Add new functions to render state according to annexe value"
+ 1753  cd ..
+ 1754  git add src/components/odComponents/GlobalOd.vue && git commit -m "Create a global od component to manage all od components"
+ 1755  git add src/components/odComponents/ && git commit -m "Add script to store and manage od ifrs 16"
+ 1756  git add src/stores/ && git commit -m "Create a global state for annexes"
+ 1757  git add src/utils/ && git commit -m "Rename formatDate to formattedDate"
+ 1758  git add src/views/ImportView.vue && git commit -m "Change formattedDate into"
+ 1759  git add src/composables/useAnnexe.js && git commit -m "Create a composable uesAnnexe to manage annexes dynamically"
+ 1760  git add vite.config.js && git commit -m "Add dev server configuration"
+ 1761  git add src/views/ClientSpace.vue && git commit -m "Add OD modal"
+ 1762  git add src/components/AccountJournal.vue && git commit -m "Load every od component dynamically"
+ 1763  git add src/views/DetailsData.vue && git commit -m "Change formattedDate into"
+ 1764  git add src/views/TotalStateData.vue && git commit -m "Load dynamically every annexe"
+ 1765  git add src/components/annexesComponents/ && git commit -m "Create annexes components to display data of annexes"
+ 1766  git add src/components/AddFiliale.vue src/components/AddModel.vue src/components/ModelComp.vue src/components/ModifyModel.vue && git commit -m "Modify the way we display modal"
+ 1767  git push -u origin main 
+ 1768  cd api/
+ 1769  source virtual_env/bin/activate
+ 1770  python run.py 
+ 1771  pnpm dev
+ 1772  cd api/
+ 1773  git add src/convert_state/ && git commit -m "Allow create_od route work"
+ 1774  cd ..
+ 1775  git add src/layouts/ && git commit -m "Declare and provide expertId, list model and selectedModel globally"
+ 1776  git add src/stores/ && git commit -m "Create a global state called idFilialeThrough and its getter"
+ 1777  git add src/views/ClientSpace.vue && git commit -m "Redesign clientspace"
+ 1778  git add src/views/DetailsData.vue && git commit -m "Inject selectedModel and listTypes called in Home view and update it in code"
+ 1779  git add src/layouts/ src/stores/ && git commit -m "Define types getter in store and call it in Home view"
+ 1780  git add src/views/TotalStateData.vue && git commit -m "Delete plus button in TotalStateData view"
+ 1781  git add package.json pnpm-lock.yaml && git commit -m "Add uuid package"
+ 1782  git add src/components/AccountJournal.vue src/components/odComponents/ && git commit -m "improve the flow of information from parent to child components"
+ 1783  git add src/ && git commit -m "Update Basic Modal component and in every component where it's used"
+ 1784  git push -u origin main 
+ 1785  git add src/components/annexesComponents/ && git commit -m "Change BasisModel to BasicModel"
+ 1786  git push -u origin main 
+ 1787  source virtual_env/bin/activate
+ 1788  python run.py 
+ 1789  clear
+ 1790  clear
+ 1791  mongosh
+ 1792  clear
+ 1793  mongosh
+ 1794  git add src/composables/useNotyf.js && git commit -m "Create a composable to manage toast"
+ 1795  git add src/views/ && git commit -m "Add toast to view pages"
+ 1796  git add src/plugins/ && git commit -m "Add css notyf file to plugins"
+ 1797  git add package.json pnpm-lock.yaml && git commit -m "Add notyf package to dependencies"
+ 1798  cd api/
+ 1799  source virtual_env/bin/activate
+ 1800  python run.py 
+ 1801  pnpm add notyf
+ 1802  corepack prepare pnpm@8.6.7 --activate
+ 1803  pnpm dev
+ 1804  clear
+ 1805  pnpm dev
+ 1806  pnpm preview
+ 1807  pnpm build
+ 1808  pnpm preview
+ 1809  pnpm dev
+ 1810  mongosh
+ 1811  git add src/components/NoData.vue src/composables/useNoData.js src/views/ src/App.vue && git commit -m "Display component when no data"
+ 1812  cd api/
+ 1813  source virtual_env/bin/activate
+ 1814  python run.py 
+ 1815  git add src/composables/useNoData.js && git commit -m "Add hide function to useNoData composable"
+ 1816  git add src/layouts/ && git commit -m "Parse expertId data"
+ 1817  git add src/views/ src/components/ && git commit -m "set up state reloading to add or modify information"
+ 1818  git push -u origin main 
+ 1819  mongosh
+ 1820  redis
+ 1821  redis-cli
+ 1822  cd api/
+ 1823  source virtual_env/bin/activate
+ 1824  python run.py 
+ 1825  clear
+ 1826  pnpm dev
+ 1827  pnpm install
+ 1828  pnpm format
+ 1829  pnpm dev
+ 1830  corepack prepare pnpm@8.6.9 --activate
+ 1831  pnpm add -D tailwindcss postcss autoprefixer
+ 1832  pnpx tailwindcss init -p
+ 1833  pnpm dev
+ 1834  pnpm add @mdi/font @vueuse/core
+ 1835  pnpm dev
+ 1836  pnpm build
+ 1837  surge dist/
+ 1838  rm -r dist/
+ 1839  pnpm dev
+ 1840  pnpm build
+ 1841  surge dist/
+ 1842  surge teardown test-bib-01.surge.sh
+ 1843  rm -r dist/
+ 1844  pnpm dev
+ 1845  pnpm add vue-scan-qrcode
+ 1846  pnpm add vue-qrcode-reader
+ 1847  pnpm dev
+ 1848  pnpm build
+ 1849  surge dist/
+ 1850  pnpm dev
+ 1851  pnpm build
+ 1852  surge dist/
+ 1853  pnpm dev
+ 1854  yarn dev
+ 1855  yarn dev --host
+ 1856  yarn build
+ 1857  yarn preview
+ 1858  yarn preview --host
+ 1859  surge dist/
+ 1860  cd pi2023/
+ 1861  ls
+ 1862  cd app/
+ 1863  ls
+ 1864  code pharma-app/
+ 1865  history 
+ 1866  cd ..
+ 1867  ls
+ 1868  cd ..
+ 1869  ls
+ 1870  cd Documents/
+ 1871  ls
+ 1872  cd book-store-comoe-photos/
+ 1873  ls
+ 1874  pnpx create-vue
+ 1875  ls
+ 1876  surge teardown ycube.surge.sh
+ 1877  ls
+ 1878  mkdir photos
+ 1879  mv WhatsApp\ Image\ 2023-03-18\ at\ 23.* photos/
+ 1880  ls
+ 1881  cd photos/
+ 1882  ls
+ 1883  cd ..
+ 1884  ls
+ 1885  clear
+ 1886  pnpx create-vue
+ 1887  cd bac-is-back/
+ 1888  code .
+ 1889  pnpm test
+ 1890  pnpm run test:unit
+ 1891  cd Y3-project/consolidation-project/
+ 1892  ls
+ 1893  cd ..
+ 1894  code consolidation-project/
+ 1895  cd api/
+ 1896  source virtual_env/bin/activate
+ 1897  clear
+ 1898  python run.py 
+ 1899  pnpm dev
+ 1900  git add src/composables/useNotyf.js src/components/ModifyModel.vue src/components/AddModel.vue && git commit -m "Modify options of useNotyf"
+ 1901  rm src/composables/useAxios.js 
+ 1902  git add src/views/ClientList.vue && git commit -m "Change structure of of cols"
+ 1903  mongosh
+ 1904  node
+ 1905  cd Y3-project/
+ 1906  code consolidation-project/
+ 1907  node
+ 1908  clear
+ 1909  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1910  python
+ 1911  node
+ 1912  git add api/src/models/convert_state.py && git commit -m "Convert_state model : delete annexe_cell value from return results"
+ 1913  git add api/src/convert_state/routes.py && git commit -m "Convert_state route : Modify algo values"
+ 1914  git add src/views/DetailsData.vue && git commit -m "Isolate getConvertState function and format in json results"
+ 1915  git add src/views/TotalStateData.vue src/components/ConversionBtn.vue src/components/TableData.vue && git commit -m "Replace zero by dash"
+ 1916  node
+ 1917  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1918  cd api/
+ 1919  python run.py 
+ 1920  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1921  cd l
+ 1922  clear
+ 1923  pnpm dev
+ 1924  cd Y3-project/
+ 1925  code consolidation-project/
+ 1926  mongosh
+ 1927  cd Y3-project/
+ 1928  code consolidation-project/
+ 1929  mongosh
+ 1930  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1931  cd api/
+ 1932  python run.py 
+ 1933  source /home/akuseru/Y3-project/consolidation-project/api/virtual_env/bin/activate
+ 1934  pnpm dev
+ 1935  source ../../venv/bin/activate
+ 1936  ls
+ 1937  pip list
+ 1938  source ../../venv/bin/activate
+ 1939  source /home/akuseru/pi2023/venv/bin/activate
+ 1940  cd src/utils/
+ 1941  ls
+ 1942  python scrap_offers.py 
+ 1943  source /home/akuseru/Y3-project/scraping_project/virtualenv/bin/activate
+ 1944  python scrap_offers.py 
+ 1945  python async_scrap.py 
+ 1946  python scrap_offers.py 
+ 1947  clear
+ 1948  python async_scrap.py 
+ 1949  python scrap_offers.py 
+ 1950  python async_scrap.py 
+ 1951  source /home/akuseru/Y3-project/scraping_project/virtualenv/bin/activate
+ 1952  clear
+ 1953  python scrap_offers.py 
+ 1954  python async_scrap.py 
+ 1955  cd pi2023/app/
+ 1956  code api/
+ 1957  source vue-app-v1/ls
+ 1958  ls
+ 1959  ls ..
+ 1960  source ../venv/bin/activate
+ 1961  clear
+ 1962  code api/
+ 1963  python
+ 1964  clear
+ 1965  python
+ 1966  source ../venv/bin/activate
+ 1967  code api/
+ 1968  cd ~/Y3-project/
+ 1969  mkdir scraping_project
+ 1970  cd scraping_project/
+ 1971  deactivate 
+ 1972  python -m env venv
+ 1973  python -m venv env
+ 1974  ls
+ 1975  source env/bin/activate
+ 1976  pip list
+ 1977  deactivate 
+ 1978  rm -r env/
+ 1979  ls
+ 1980  python -m venv virtualenv
+ 1981  source virtualenv/bin/activate
+ 1982  pip list
+ 1983  pip install requests beautifulsoup4
+ 1984  pip list
+ 1985  code .
+ 1986  pip install python-dateutil
+ 1987  pip list
+ 1988  pip install aiohttp
+ 1989  pip list
+ 1990  cd ..
+ 1991  deactivate 
+ 1992  source consolidation-project/api/virtual_env/bin/activate
+ 1993  code consolidation-project/
+ 1994  pip install PyPDF2
+ 1995  sudo update-grub
+ 1996  source /home/akuseru/Y3-project/scraping_project/virtualenv/bin/activate
+ 1997  python
+ 1998  source /home/akuseru/Y3-project/scraping_project/virtualenv/bin/activate
+ 1999  python async_scrap.py 
+ 2000  history
+ 2001  history > history.txt
